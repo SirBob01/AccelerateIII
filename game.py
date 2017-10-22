@@ -26,6 +26,13 @@ while True:
 	for e in pygame.event.get():
 		if e.type == QUIT:
 			quit() # Quit the game when the user "quits" the app
+		if e.type == KEYDOWN:
+			if e.key == K_UP:
+				background_color = (100, 0, 0) # Pressing the "up" key makes the background red
+		if e.type == MOUSEBUTTONDOWN:
+			background_color = (0, 100, 0) # Holding the mouse button down makes it green
+		if e.type == MOUSEBUTTONUP:
+			background_color = (0, 0, 100) # Releasing the mouse button makes it blue
 
 	# Update the screen everytime it changes
 	pygame.display.update()
