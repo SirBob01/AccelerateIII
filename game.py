@@ -5,12 +5,12 @@ from pygame.locals import *
 # Initialize modules
 pygame.init()
 
-# Initialize main variables
+# Declare main variables
 width = 1000
 height = 600
 background_color = (0, 100, 0)
 
-# Intitialize display
+# Setup display
 screen = pygame.display.set_mode((width, height), 0, 32)
 pygame.display.set_caption("My First Game!")
 
