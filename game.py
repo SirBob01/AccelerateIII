@@ -8,7 +8,7 @@ pygame.init()
 # Declare main variables
 width = 1000 # Dimensions of the screen
 height = 600
-background_color = (0, 100, 0) # RGB color tuple (0 - 255)
+background_color = (0, 255, 0) # RGB color tuple (0 - 255)
 
 # Setup display
 # display.set_mode(dimentions_tuple, flags=0, color_depth)
@@ -28,11 +28,13 @@ while True:
 			quit() # Quit the game when the user "quits" the app
 		if e.type == KEYDOWN:
 			if e.key == K_UP:
-				background_color = (100, 0, 0) # Pressing the "up" key makes the background red
+				background_color = (255, 0, 0) # Pressing the "up" key makes the background red
+		if e.type == KEYUP:
+			background_color = (255, 255, 0) # Releasing any key will make the background yellow
 		if e.type == MOUSEBUTTONDOWN:
-			background_color = (0, 100, 0) # Holding the mouse button down makes it green
+			background_color = (0, 255, 0) # Holding the mouse button down makes it green
 		if e.type == MOUSEBUTTONUP:
-			background_color = (0, 0, 100) # Releasing the mouse button makes it blue
+			background_color = (0, 0, 255) # Releasing the mouse button makes it blue
 
 	# Update the screen everytime it changes
 	pygame.display.update()
