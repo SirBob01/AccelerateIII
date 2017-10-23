@@ -22,6 +22,9 @@
 		- Pixel coordinate system
 		- Animation
 		- Bounding boxes
+			- Position
+			- Dimensions
+			- Velocity
 		- Making game objects that represent these ideas
 	- Create a simple game where they collect items in a field
 	- Explain collision detection between bounding boxes
