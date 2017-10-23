@@ -6,8 +6,8 @@ from pygame.locals import *
 pygame.init()
 
 # Declare main variables
-width = 1000 # Dimensions of the screen
-height = 600
+width = 640 # Dimensions of the screen
+height = 480
 background_color = (0, 255, 0) # RGB color tuple (0 - 255)
 
 # Setup display
