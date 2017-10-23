@@ -1,0 +1,27 @@
+- Introduce python and pygame and how you could make totes awesome things with it
+	- AstroJumper as an example game
+	- Centurion as an example of an awesome game
+
+- Teach them how to program first game
+	- Make firt program with pygame ("My first game!" as a caption, black screen)
+	- Add events to make the background color change
+	- Explain the following concepts, step by step:
+		- Importing pygame
+		- Main function
+		- Display surface
+			- Recap on variables and functions
+		- Colors
+			- Recap on tuples
+		- Game loop
+		- Events
+		- Updating the display surface
+		- Framerate capping
+
+- Walk them through making their first actual game
+	- Explain the following concepts:
+		- Pixel coordinate system
+		- Animation
+		- Bounding boxes
+		- Making game objects that represent these ideas
+	- Create a simple game where they collect items in a field
+	- Explain collision detection between bounding boxes
